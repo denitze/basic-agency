@@ -1,0 +1,65 @@
+<%- include('./partials/head') %>
+<section id="home-sec" class="bg-white">
+<%- include('./partials/navBlack') %>
+<section class="index-hero">
+    <h1>WHAT'S NEXT STARTS</h1>
+    <h1><div class="dot-header"></div>HERE</h1>
+    <video autoplay loop>
+        <source src="assets/img/Hero.mp4" type="video/mp4">
+      </video>
+</section>
+<section class="basic">
+<p>STRATEGY, DESIGN, TECHNOLOGY</p>
+<h3>BASIC® is a branding and digital design agency building products, services, and ecommerce experiences that turn cultural values into company value.</h3>
+<a href="/work">SEE THE WORK</a>
+</section>
+<section class="engagements">
+    <h2>FEATURED <br>ENGAGEMENTS </h2>
+    <article class="scrollSnap">
+        <% icons.forEach(icon => { %>
+        <div>
+            <img src=<%=icon.img%> alt="">
+            <div class="line"></div>
+            <h3><%=icon.title%></h3>
+            <p><%=icon.description%></p>
+        </div>
+        <% }) %>
+    </article>
+</section>
+<section class="culture bg-black">
+    <article class="culture-head">
+        <div>
+            <h2>BASIC® HELPS BRANDS <br>
+                <div class="dot-header"></div>CONNECT W/ CULTURE
+            </h2>
+            <p>ADWEEK <span>(AGENCY SPOTLIGHT)</span> </p>
+            <a href="/about">ABOUT US</a>
+        </div>
+        <video autoplay loop>
+            <source src="assets/img/Culture.mp4" type="video/mp4">
+        </video>
+
+    </article>
+
+    <section class="featured-news">
+        <h3>FEATURED <br> NEWS </h3>
+
+        <% featuredNews.forEach(newsItem => { %>
+        <article>
+            <img src=<%=newsItem.img %> alt="">
+            <div class="award-title">
+                <h2><%=newsItem.title%></h2>
+                <div class="award-date">
+                    <p><%= newsItem.topic %></p>
+                    <p><%= newsItem.date %></p>
+                </div>
+            </div>
+            <img src="assets/img/arrow.svg" alt="" class="arrow">
+        </article>
+        <% }) %>
+    </section>
+</section>
+<%- include('./partials/footBlack') %>
+</section>
+
+<%- include('./partials/footer') %>

@@ -1,0 +1,32 @@
+<%- include('./partials/head') %>
+
+<section class="bg-white">
+<%- include('./partials/navBlack') %>
+<section class="news-hero">
+    <h1>News</h1>
+    <div class="dot-header"></div>
+</section>
+<section class="news-sec">
+    
+        <% news.forEach(newsItem => { %>
+            <article>
+            <img src=<%=newsItem.img %> alt="">
+            <div class="award-title">
+                <h2><%=newsItem.title%></h2>
+                <div class="award-date">
+                    <p><%= newsItem.topic %></p>
+                    <p><%= newsItem.date %></p>
+                </div>
+            </div>
+            <img src="assets/img/arrow-black.svg" alt="" class="arrow">
+        </article>
+    <% }) %>
+    
+
+</section>
+
+
+<%- include('./partials/footBlack') %>
+</section>
+
+<%- include('./partials/footer') %>

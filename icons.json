@@ -1,0 +1,28 @@
+[
+    {
+        "img": "assets/img/icons/google.svg",
+        "title":"GOOGLE",
+        "description":"Our embedded partnership with Google is as deep as it gets. We’re the lead creative agency for Google Store and provide strategy, design, and prototyping to other divisions."
+    },
+    {
+        "img": "assets/img/icons/patagonia.svg",
+        "title":"PATAGONIA",
+        "description":"Ongoing partnership providing strategy, branding, experience design, and development focused on bringing their mission and offerings to consumers through brand-led programs and platforms."
+    },
+    {
+        "img": "assets/img/icons/airbnb.svg",
+        "title":"AIRBNB",
+        "description":"Helping the world’s leading peer-to-peer hospitality company with creative vision, experience strategy, and execution in partnership with various departments and divisions internally at Airbnb."
+    },
+    {
+        "img": "assets/img/icons/herman.svg",
+        "title":"HERMAN MILLER",
+        "description":"A collaborative and performance incentivized partnership with our teams working side by side to reimagine the digital shopping experiences for Herman Miller, Design Within Reach, and Hay."
+    },
+    {
+        "img": "assets/img/icons/ua.svg",
+        "title":"UNDER ARMOUR",
+        "description":"Strategy, design, and development to differentiate the iconic brand’s direct-to-consumer experience through an all new omnichannel approach, global eCommerce"
+    }
+
+]

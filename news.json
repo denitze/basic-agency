@@ -1,0 +1,34 @@
+[
+    {
+        "img": "assets/img/news1.jpg",
+        "title":"CRAFTED® EMERGES AS A WINNER OF COMMUNICATION ARTS’ 26TH INTERACTIVE ANNUAL",
+        "topic":"AWARDS",
+        "date": "02.25.20"
+    },
+
+    {
+        "img": "assets/img/news2.jpg",
+        "title":"AWWWARDS NOMINATES BASIC® FOR AGENCY OF THE YEAR AND TWO OTHER HONORS",
+        "topic":"AWARDS",
+        "date": "01.10.20"
+    },
+    {
+        "img": "assets/img/news3.jpg",
+        "title":"THE WEBBY AWARDS SELECT BASIC® TO RETHINK THE FUTURE OF THEIR BRAND AND DIGITAL PLATFORM",
+        "topic":"WORK",
+        "date": "12.13.19"
+    },
+    {
+        "img": "assets/img/Adweek.jpg",
+        "title":"BASIC® Deemed One of the World’s Fastest Growing Agencies by Adweek",
+        "topic":"PRESS",
+        "date": "09.25.19"
+    },
+    {
+        "img": "assets/img/Furrion-Partnership.jpg",
+        "title":"BASIC® and Furrion partner to launch all new eCommerce website built for a D2C future",
+        "topic":"WORK",
+        "date": "08.29.19"
+    }
+
+]
