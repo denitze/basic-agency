@@ -1,11 +1,11 @@
 <nav>
     <a href="/"><img src="assets/img/logo.svg" alt="" class="logo"></a>
     <ul>
-        <li><a href="/work">Work</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/news">News</a></li>
-        <li><a href="/thinking">Thinking</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/work" class="<%=title === 'Work' ? 'navActiveDark' : ''%>">Work</a></li>
+        <li><a href="/about"class="<%=title === 'About' ? 'navActiveLight' : ''%>">About</a></li>
+        <li><a href="/news" class="<%=title === 'News' ? 'navActiveDark' : ''%>">News</a></li>
+        <li><a href="/thinking" class="<%=title === 'Thinking' ? 'navActiveLight' : ''%>">Thinking</a></li>
+        <li><a href="/contact"class="<%=title === 'Contact' ? 'navActiveDark' : ''%>">Contact</a></li>
     </ul>
     <img src="assets/img/menu.svg" alt="" class="dots"onclick="on()">
 </nav>

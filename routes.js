@@ -8,34 +8,30 @@ const icons = require('./icons.json')
 
 
 router.get('/', (req,res) => {
-    res.render('index', {title: "Basic Home", icons, featuredNews})
+    res.render('index', {title: "Home", icons, featuredNews})
 })
 
 router.get('/work', (req,res) => {
-    res.render('work', {title: "Basic Work"})
+    res.render('work', {title: "Work"})
 })
 
 router.get('/about', (req,res) => {
-    res.render('about', {title: "Basic About"})
+    res.render('about', {title: "About"})
 })
 
 router.get('/news', (req,res) => {
-    res.render('news', {title: "Basic News",news})
+    res.render('news', {title: "News",news})
 })
 
 router.get('/thinking', (req,res) => {
-    res.render('thinking', {title: "Basic Thinking",thinking})
+    res.render('thinking', {title: "Thinking",thinking})
 })
 
 
 router.get('/contact', (req,res) => {
-    res.render('contact', {title: "Basic Contact"})
+    res.render('contact', {title: "Contact"})
 })
 
-
-router.get('/aside', (req,res) => {
-    res.render('aside', {title: "Basic Aside"})
-})
 
 
 module.exports = router

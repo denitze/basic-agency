@@ -63,11 +63,28 @@ nav ul {
 
 nav a {
     color:#252422;
+    padding-bottom:1vh;
 }
 
 #navPink a {
     color:#f9cdcd;
+    padding-bottom:1vh;
 }
+
+nav a:hover {
+    font-family: scto-medium;
+    font-size: 1.1rem;
+}
+
+.navActiveDark{
+    border-bottom: 1px solid #252422;
+   }
+   
+.navActiveLight{
+    border-bottom: 1px solid #f9cdcd;
+   }
+
+
 
 /* OVERLAY  */
 #overlay {
@@ -170,7 +187,9 @@ nav a {
 
 /* ____INDEX________ */
 
-
+.index-hero {
+    margin:10vh 3rem 2vh;
+}
 .index-hero h1:nth-of-type(1) {
     width:60%;
 }
@@ -329,7 +348,7 @@ margin: 0 3rem;
 
 /* ____WORK _______ */
 
-.work-hero, .index-hero, .about-hero {
+.work-hero, .about-hero {
     margin:10vh 3rem;
 }
 
@@ -372,7 +391,7 @@ margin: 0 3rem;
     margin-bottom:3vh;
     }
 
-.work-commerce article a {
+.work-commerce article a, .error a {
     text-align: center;
         width:35%;
         margin-top:5vh;
@@ -382,7 +401,7 @@ margin: 0 3rem;
         padding:.2rem 0;
         }   
 
-.work-commerce article a:hover, .basic a:hover {
+.work-commerce article a:hover, .basic a:hover, .error a:hover {
 background: #252422;
 color:#fff;
 
@@ -872,8 +891,30 @@ padding-bottom:2.5vh;
 border-bottom:1px solid #252422;
 }
 
+/* _____404______ */
 
+.error {
+ min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
 
+.error h1{
+    font-size: 20rem;
+    font-family: scto-bold;
+}
+
+.error h2 {
+    font-size: 3rem;
+    font-family: scto-bold;
+}
+
+.error p{
+ width:40%;
+ text-align: center;
+ margin: 2vh 0;
+}
 
 
 
